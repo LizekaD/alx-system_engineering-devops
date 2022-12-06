@@ -1,2 +1,2 @@
-#!bin/bash
-ls -lt | head
+#!/bin/bash
+find . -type f d ! -print . | WC -l
